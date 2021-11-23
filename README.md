@@ -1,42 +1,131 @@
-# Hello Node!
+![Reaper Logo](https://media.discordapp.net/attachments/853118185330049054/885199802369974292/images_1.jpeg)
 
-This project includes a Node.js server script and a web page that connects to it. The front-end page presents a form the visitor can use to submit a color name, sending the submitted value to the back-end API running on the server. The server returns info to the page that allows it to update the display with the chosen color. 🎨
+<h1 align="center"> REAPER-2.0  </h1>
+<p align="center">
+<a href="https://github.com/Simpleboy353/REAPER-2.0/blob/main/LICENSE.md"><img alt="GitHub License" src="https://img.shields.io/github/license/Simpleboy353/REAPER-2.0?style=for-the-badge"></a>
+<a href="https://github.com/Simpleboy353/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/Simpleboy353/REAPER-2.0?style=for-the-badge"></a> 
+<a href="https://github.com/Simpleboy353/REAPER-2.0/network"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/Simpleboy353/REAPER-2.0?style=for-the-badge"></a>
+<a href="https://infinitybot.tk/support"><img alt="Support Server" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
+</p>
+<h3 align="center">An Multi-purpose Discord bot with many features!</h3>
 
-[Node.js](https://nodejs.org/en/about/) is a popular runtime that lets you run server-side JavaScript. This project uses the [Fastify](https://www.fastify.io/) framework and explores basic templating with [Handlebars](https://handlebarsjs.com/).
+---
 
-## Prerequisites
+## Requirements
+- Discord.js v13 (`npm install discord.js@latest`)
+- `applications.commands` scope enabled for your bot in Developer Portal (For Slash Cmds).
+- NodeJS v16.6 or higher
+- Basic knowledge of JS or Discord.JS
 
-You'll get best use out of this project if you're familiar with basic JavaScript. If you've written JavaScript for client-side web pages this is a little different because it uses server-side JS, but the syntax is the same!
+## Have suggestions on what could be added?
+- **Leave your suggestions right [here](https://github.com/Simpleboy353/REAPER-2.0/issues/15) then!**
 
-## What's in this project?
+## What features does Reaper Include?
 
-← `README.md`: That’s this file, where you can tell people what your cool website does and how you built it.
+<details><summary>Available Features</summary>
 
-← `public/style.css`: The styling rules for the pages in your site.
+| Features             | Availability |
+| -------------------- | ------------ |
+| Anti-Link            |     ✅       |
+| Autorole             |     ✅       |
+| Auto-Mod             |     ✅       |
+| Custom Prefix        |     ✅       |
+| Permanent Database   |     ✅       |
+| Welcomer             |     ✅       |
+| Logging              |     ✅       |
+| Menu(s)              |     ✅       |
+| Slash Commands       |     ✅       |
 
-← `server.js`: The **Node.js** server script for your new site. The JavaScript defines the endpoints in the site back-end, one to return the homepage and one to update with the submitted color. Each one sends data to a Handlebars template which builds these parameter values into the web page the visitor sees.
+</details>
 
-← `package.json`: The NPM packages for your project's dependencies.
+<details><summary>Command Categories</summary>
 
-← `src/`: This folder holds the site template along with some basic data files.
+| Commands Category      | Availability |
+| ---------------------- | ------------ |
+| Configuration          |     ✅       |
+| Fun                    |     ✅       |
+| Image                  |     ✅       |
+| Info                   |     ✅       |
+| Moderation             |     ✅       |
+| Music                  |     ✅       |
+| NSFW                   |     ✅       |
+| Utilities              |     ✅       |
 
-← `src/pages/index.hbs`: This is the main page template for your site. The template receives parameters from the server script, which it includes in the page HTML. The page sends the user submitted color value in the body of a request, or as a query parameter to choose a random color.
+</details>
 
-← `src/colors.json`: A collection of CSS color names. We use this in the server script to pick a random color, and to match searches against color names.
+## Versions and Support Info
 
-← `src/seo.json`: When you're ready to share your new site or add a custom domain, change SEO/meta settings in here.
+<details><summary>Detailed Versions Info</summary>
 
-## Try this next 🏗️
+|              REAPER Versions                           | Support Status |
+| ------------------------------------------------------ | -------------- |
+| v7.1.5-stable (Button controls for music) (Current)    |       Available       |
+| v7.1.0-stable (Support for Activities)                 |       Available       |
+| v7.0.0-stable (Music System)                           |       Available       |
+| v6.7.5-alpha (Better Error Logging)                    |       Seems okay to me!       |
+| v6.7.0-beta (Slash Cmds, Thread Events)                |       Discontinued       |
+| v6.6.0-beta (Logging, New UI for settings)             |       Discontinued       |
+| v6.5.0-stable (V13 Support Added)                      |       Discontinued       |
+| v6.3.0-stable (Anti-Link Support)                      |       Discontinued       |       
+| v6.1.0-stable (Error Free Version)                     |       Discontinued       |
+| v5.5.0-stable (Welcomer Added)                         |       Discontinued       |
+| v5.0.0-beta (Autorole Added)                           |       Discontinued       |
+| v4.9.0-alpha (Custom Prefix Added)                     |       Discontinued       |
+| v4.4.0-alpha (Database Support Added)                  |       Discontinued       |
 
-Take a look in `TODO.md` for next steps you can try out in your new site!
+</details>
 
-___Want a minimal version of this project to build your own Node.js app? Check out [Blank Node](https://glitch.com/edit/#!/remix/glitch-blank-node)!___
+- **Keep checking the [Releases Section](https://github.com/Simpleboy353/REAPER-2.0/releases) to get the latest info relating new updates, bug fixes etc about the repository.**
+- **The Information above includes Versions with only `Major Updates` and not Versions with `Bug fixes`**
+- **`v6.1.0-stable` is included in the List because this version includes the fixing of every error in the repository.**
+- **Support is provided only for `Stable` and `Beta` Versions and not for `Alpha` Versions.**
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
+---
 
-## You built this with Glitch!
+## Getting started
+#### Creating a fork:
+- 1). [Click here to fork the repository](https://github.com/Simpleboy353/REAPER-2.0)
+- 2). Open your terminal and type `git clone https://github.com/Simpleboy353/REAPER-2.0.git`
+#### Installing all necessary packages
+- `npm install`
+#### Starting the bot
+- `node .` or `node index` 
 
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
+---
 
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+## Configuration
+- **Edit the `config.json` file and enter the  required values**
+```json
+{
+  "OWNER_ID": "YOUR_ID_HERE",
+  "BOT_TOKEN": "YOUR_BOT_TOKEN",
+  "tenorAPI":"ZEEELJXAFQBN",
+  "DEFAULT_PREFIX":"ENTER_YOUR_PREFIX_HERE",
+  "mongoPass": "ENTER_YOUR_MONGODB_URL_HERE",
+  "ERROR_LOGS_CHANNEL": "ADD_ERRORLOGS_CHANNEL_ID",
+  "ALEXFLIPNOTE_API_KEY": "ADD_YOUR_API_KEY_HERE",
+  "YT_COOKIE": "ADD_YOUR_COOKIE_HERE",
+}
+```
+- **To get the `ALEXFLIPNOTE_API_KEY`, join [AlexFlipNote's Discord Server](https://discord.gg/mSPFqeMnJj)**
+- **Watch [this video](https://youtu.be/BPqJIl34gm8) to know, how to get the `YT_COOKIE`**
+- **You may use any channel id for `ERROR_LOGS_CHANNEL`, but the bot must be present in the server you are choosing the ID from.**
+- **All the errors your bot faces, will be logged in the `ERROR_LOGS_CHANNEL`**
+- **The `mongoPass` must be a `url`**
+- **Visit Official [MongoDB Website](https://mongodb.com) to get your `mongoPass`**
+- **Watch this video to know how to get your `mongoPass`:**
+[![MongoDb Tutorial](http://img.youtube.com/vi/pf-8KA8td88/0.jpg)](http://www.youtube.com/watch?v=pf-8KA8td88 "MongoDB Tutorial")
+- **Don't change the `tenorAPI` else the `gif` command won't work!**
+
+
+---
+
+## Contributing
+- **Before contributing to this repo, make sure to read [CONTRIBUTIONS.md](https://github.com/Simpleboy353/REAPER-2.0/blob/master/CONTRIBUTIONS.md)**
+- **Join our [Support & Development Server](https://infinitybot.tk/support)**
+- **Join our [Community server](https://discord.gg/yMfyeNR2DT)**
+- **Invite my bot to your Server, [Here](https://infinitybot.tk/invite)**
+
+---
+
+## Star the Repo if you liked it!
